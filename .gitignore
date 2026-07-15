@@ -1,1 +1,15 @@
-/__pycache__
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales (si usas alguno)
+venv/
+env/
+
+# Variables de entorno
+.env
+
+# Caché de modelos (Hugging Face)
+.cache/
+huggingface/
